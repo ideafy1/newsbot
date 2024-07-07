@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-news-bot
+    name: telegram-wikinews-bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
